@@ -269,6 +269,8 @@ class Pass(object):
         # The authentication token to use with the web service
         self.authenticationToken = None
 
+        self.deviceLibraryIdentifier = None
+
         # Relevance Keys
 
         # Optional. Locations where the pass is relevant.
